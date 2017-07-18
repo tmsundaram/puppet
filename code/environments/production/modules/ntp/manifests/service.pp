@@ -1,5 +1,7 @@
-class ntp::service {
- service { "$ntp_service: 
+class ntp::service (
+ $ntp_service
+) {
+ service { "$ntp_service": 
   ensure => running,
  }
 }
