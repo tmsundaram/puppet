@@ -1,0 +1,7 @@
+---
+ntp_servers:
+-ntp1.sunt.com
+-ntp2.sunt.com
+ntp::conf::ntp_conf: /etc/ntp.conf
+ntp::service::ntp_service: ntpd
+ntp::package::ntp_package: ntp
