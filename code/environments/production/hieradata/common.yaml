@@ -5,3 +5,10 @@ ntp::package::ntp_package: ntp
 ntp_servers:
 - ntp1.sunt.com
 - ntp2.sunt.com
+host::hostname: rhel7_1.sunt.com
+host::ipaddr: 10.0.0.1
+host::hostalias: 
+- web1
+- rhel7_1
+- ftp1
+host::comment:
